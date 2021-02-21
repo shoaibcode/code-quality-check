@@ -2,9 +2,10 @@
   "name": "code-quality",
   "version": "1.0.0",
   "description": "",
-  "main": "touch.js",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
