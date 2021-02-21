@@ -1,0 +1,19 @@
+{
+  "name": "code-quality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "touch.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}
