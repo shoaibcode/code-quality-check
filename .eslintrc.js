@@ -7,8 +7,7 @@ module.exports = {
     },
   },
   plugins: ["react"],
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
   rules: {
-    semi: ["error", "always"],
   },
 };

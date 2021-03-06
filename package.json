@@ -5,14 +5,22 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "fix": "run-script-os",
+    "fix:win32": "prettier-eslint --write %INIT_CWD%/src/**/*.js",
+    "fix:darwin:linux": "prettier-eslint --write $PWD/src/**/*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.20.0",
-    "eslint-plugin-react": "^7.22.0"
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint-cli": "^5.0.1",
+    "run-script-os": "^1.1.5"
   },
   "dependencies": {
     "react": "^17.0.1"
