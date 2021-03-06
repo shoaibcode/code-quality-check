@@ -1,7 +1,7 @@
-import { foo } from "./Test"
+import { foo } from './Test'
 
 function sayHello() {
-    return foo
+  return foo
 }
 
 sayHello()

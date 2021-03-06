@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
