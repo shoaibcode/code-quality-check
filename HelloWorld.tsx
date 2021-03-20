@@ -1,3 +1,3 @@
-let x:number = "12";
+let x = 12
 
-x = "14";
+x = 17
