@@ -1,7 +1,3 @@
-import { foo } from './Test'
-
-function sayHello() {
-  return foo
+export function sayHello() {
+  return 'Hello'
 }
-
-sayHello()

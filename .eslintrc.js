@@ -8,8 +8,8 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ["react", "@typescript-eslint"],
-  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+  plugins: ["react", "@typescript-eslint", "jest"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:jest/recommended"],
   rules: {
   },
 };
