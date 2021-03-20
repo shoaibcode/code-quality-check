@@ -1,5 +1,5 @@
 import { sayHello } from './index'
 
 test('Dummy test', () => {
-  expect(sayHello()).toBe('Hello1')
+  expect(sayHello()).toBe('Hello')
 })
