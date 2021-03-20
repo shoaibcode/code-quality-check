@@ -34,7 +34,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run check-types"
+      "pre-push": "npm run check-types && npm run lint"
     }
   },
   "lint-staged": {
