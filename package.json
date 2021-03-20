@@ -33,12 +33,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run check-types && npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "*.{js, json, jsx}": "eslint --cache --fix",
-    "*.{ts,tsx}": ["eslint --cache --fix", "tsc --noEmit --jsx react --skipLibCheck --esModuleInterop"]
+    "*.{ts,tsx}": [
+      "eslint --cache --fix",
+      "tsc --noEmit --jsx react --skipLibCheck --esModuleInterop"
+    ]
   }
 }
