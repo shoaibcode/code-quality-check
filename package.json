@@ -39,7 +39,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm-run-all check-types lint test"
+      "pre-push": "npm-run-all --parallel check-types lint test"
     }
   },
   "lint-staged": {
